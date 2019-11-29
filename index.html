@@ -9,7 +9,7 @@
 
     <!-- Styles and bootstrap links -->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- fonts Links -->
@@ -26,14 +26,30 @@
 <body>
 
         <!-- navigation bar -->
-        
+
+    <nav class="navbar navbar-expand-md navbar-light bg-primary">
+            <a href="index.html" class="navbar-brand"><img class="logo" src="Images/logo.png" alt="Avatar"></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-between" id="nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nabv-item"><a href="index.html" class="nav-link text-dark text-uppercase font-weight-bold px-3">home</a></li>
+                    <li class="nabv-item dropdown" data-toggle="dropdown"><a href="#" class="nav-link text-dark text-uppercase font-weight-bold px-3 dropdown-toggle">My projects</a>
+                        <div class="dropdown-menu bg-primary">
+                            <a class="dropdown-item " href="#">Apps</a>
+                            <a class="dropdown-item" href="#">Websites</a>
+                            <a class="dropdown-item" href="#">Python</a>
+                        </div>
+                    </li>
+                    <li class="nabv-item"><a href="#" class="nav-link text-dark text-uppercase font-weight-bold px-3">Contact</a></li>
+                    <li class="nabv-item"><a href="#" class="nav-link text-dark text-uppercase font-weight-bold px-3">About Me</a></li>
+                </ul>
+            </div>
+    </nav>
 
     <!-- title page -->
     <section class="section_1">
         <header class="header">
-            <div class="logo_box">
-                <a href="index.html"><img class="logo" src="Images/logo.png" alt="Avtar"></a> 
-            </div>
+           
             <div class="heading_box">
                 <h1 class="heading">
                     <span class="heading_1">I'm Gyanendra</span>
