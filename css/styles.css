@@ -1,5 +1,5 @@
 body{
-    background-color: #fbe3b9;
+    background-color: #0a0a0a;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -48,6 +48,7 @@ body{
 }
 
 .heading_1{
+    line-height: 2;
     color: #06f86b;
     display: block;
     font-family: "Dancing Script", cursive ;
@@ -70,8 +71,8 @@ body{
 
 .heading_2{
     display: block;
-    font-family: cursive;
-    font-size: 20px;
+    font-family: ubuntu Mono , cursive;
+    font-size: 23px;
     letter-spacing: 10px;
     font-weight: lighter;
     animation: moveInRight 1s ease-out;
@@ -130,9 +131,19 @@ body{
 
   /* SEction 2 My skills */
 
-  .section_2{
-      
+  .section_3{
+      margin-top: 100px;
+      background-image: linear-gradient( to left top , rgba(8, 8, 8, 0.877), rgba(121, 18, 18, 0.829));
   }
+
+  .my_skill_text{
+      font-family: Calistoga, cursive ;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      padding:60px;
+  }
+
+  
 
 
 /* Footer section */
