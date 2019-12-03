@@ -1,13 +1,15 @@
 body{
     background-color: #0a0a0a;
-    font-family: "Lato", sans-serif;
+    font-family: ubuntu Mono , cursive;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
     color: grey;
-    
+    }
 
-}
+    p{
+        font-size: 17px;
+    }
         /* navigation bar */
         .my_project_list{
             border: 0;
@@ -16,7 +18,7 @@ body{
        
 
 
-        /* Title page elements section 1 */
+        /*  section 1 TITLE PAGE */
      
 .header{
     
@@ -52,7 +54,7 @@ body{
 
 .heading_1{
     line-height: 2;
-    color: #06f86b;
+    color: #07f763;
     display: block;
     font-family: "Dancing Script", cursive ;
     font-size: 40px;
@@ -94,49 +96,29 @@ body{
     
 }
 
+    /* END OF SECTION 1 TITLE PAGE */
 
 
+    /* Section 2 MY PROFILE */
 
-.my_dp{
-    top: 50%;
-    left: 50%;
-    position: relative;
-    width: 26%;
     
-    height: auto;
-    border-radius: 100%;
-    transform: translate(-50%, -60%);
-    z-index: 2;
-    animation: fade 2s ease-out;
-}
-@keyframes fade {
-    0%{
+
+    .my_dp{
+        width: 70%;
+        margin: 30px 0;
+    }
+
+    .welcome{
+        color: #07f763;
+        font-weight: bold;
+        font-family: "calistoga" , cursive;
         
-        opacity: 0;
-    }
-    50%{
-        opacity: 50;
-    }
-    100%{
-        opacity: 100;
         
     }
-}
-.my_dp_box{
-    border: 3px solid;
-    width: 20%;
-    background-image: url(../Images/header_dp.jpg);
-    background-size: cover;
-    clip-path: circle(50% at 50% 50%);
 
-    resize: both;
-}
+    /* End of section 2 MY PROFILE */
 
-    /* Section 3 MY PROFILE */
-
-
-
-  /* SEction 3 My skills */
+  /* Section 3 My skills */
 
   .section_3{
       margin-top: 100px;
@@ -148,20 +130,82 @@ body{
       letter-spacing: 2px;
       font-weight: bolder;
       padding:60px;
+      color: #07f763;
   }
 
+  /* END OF SECTION 3 MY SKILL */
+
+  /* Contact section */
+
   
+  .get_in_touch{
+      margin: 40px 0 60px;
+      font-family: Calistoga, cursive ;
+      letter-spacing: 2px;
+      font-weight: bolder;
+      font-size: 40px;
+      
+    }
+
+
+    .contact_me_name{
+        font-weight: bolder;
+        letter-spacing: 2px;
+        
+    }
+            /* Button Modification */
+    .submit_btn{
+        border-style: solid;
+        padding: 10px 30px;
+        transition: .6s;
+        font-size: 18px;
+        border-color: darkcyan;
+        overflow: hidden;
+    }
+
+    .submit_btn:focus{
+        outline: none;
+    }
+
+    .submit_btn:hover{
+        background: rgba(211, 26, 42, 0.856);
+        cursor: pointer;
+    }
+
+    .submit_btn:hover:before{
+        transform: translateX(300px) skew(-15deg);
+        opacity: .6;
+        transition: .7s;
+
+    }
+
+    .submit_btn:hover::after{
+        transform: translateX(300px) skew(-15deg);
+        opacity: .6;
+        transition: .7s;
+    }
+
 
 
 /* Footer section */
 
+
+.social_icon{
+    font-size: 20px;
+    padding: 10px;
+}
+
+
 .footer_section{
     text-align: center;
+    padding: 64px 0 0 0;
 }
 
 .last_line{
 
     border-style: solid;
     border-width: 10px 0 0 0;
-    border-color: rgb(17, 212, 99);
+    border-color: #07f763;
 }
+
+/* End Of Footer section */
